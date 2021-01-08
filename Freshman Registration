@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta language = "zh-CN">
+		<meta charset="utf-8">
+		<title>Registration</title>
+		<style>
+			table {
+				width: 700px;	
+				border-width: 1px;
+				background-color: bisque;
+			}
+			table,td {
+				border-style: solid;
+				border-collapse: collapse;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Freshmen Registration</h1>
+		<table>			
+			<tr>
+				<td>Name</td>
+				<td>
+					<input type="text" value="Logar"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td>
+					<input type="checkbox" name ="sex">man
+					<input type="checkbox" name ="sex">woman
+					<input type="checkbox" name ="sex">unknown
+				</td>
+			</tr>
+			<tr>
+				<td>Birthday</td>
+				<td>
+					<select>
+						<option> --Year--</option>
+						<option> 1998</option>
+						<option> 1999</option>
+						<option> 2000</option>
+						<option> 2001</option>
+						<option> 2002</option>
+						<option> 2003</option>
+						<option> 2004</option>
+						<option> 2005</option>
+						<option> 2006</option>
+						<option> 2007</option>
+						<option> 2008</option>
+						<option> 2009</option>
+						<option> 2010</option>
+						<option> 2011</option>
+						<option> 2012</option>
+						<option> 2013</option>
+						<option> 2014</option>
+						<option> 2015</option>
+						<option> 2016</option>
+						<option> 2017</option>
+						<option> 2018</option>
+						<option> 2019</option>
+						<option> 2020</option>
+						<option> 2021</option>
+						<option selected="selected"> Years</option>
+					</select>
+					<select>
+						<option> --Month--</option>
+						<option>Jan</option>
+						<option>Feb</option>
+						<option>Mar</option>
+						<option>Apr</option>
+						<option>May</option>
+						<option>Jun</option>
+						<option>Jul</option>
+						<option>Aug</option>
+						<option>Sep</option>
+						<option>Oct</option>
+						<option>Nov</option>
+						<option>Dec</option>
+						<option selected="selected"> Months</option>
+					</select>
+					<select>
+						<option> --Day--</option>
+						<option>01</option>
+						<option>02</option>
+						<option>03</option>
+						<option>04</option>
+						<option>05</option>
+						<option>06</option>
+						<option>07</option>
+						<option>08</option>
+						<option>09</option>
+						<option>10</option>						
+						<option>11</option>
+						<option>12</option>
+						<option>13</option>
+						<option>14</option>
+						<option>15</option>
+						<option>16</option>
+						<option>17</option>
+						<option>18</option>
+						<option>19</option>
+						<option>20</option>
+						<option>21</option>
+						<option>22</option>
+						<option>23</option>
+						<option>24</option>
+						<option>25</option>
+						<option>26</option>
+						<option>27</option>
+						<option>28</option>
+						<option>29</option>
+						<option>30</option>
+						<option>31</option>
+						<option selected="selected"> Days</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Campus</td>
+				<td>
+					<select>
+					<option> --Campus--</option>
+						<option>Si'ming Campus</option>
+						<option>Xiang'an Campus</option>
+						<option>Zhang'zhou Campus</option>
+						<option>Malaysia Campus</option>
+					</select>
+				</td>
+			</tr>	
+			<tr>
+				<td>Soul</td>
+				<td>
+					<input type="checkbox" name ="soul">Optimistic
+					<input type="checkbox" name ="soul">Shy
+					<input type="checkbox" name ="soul">Enthusiatic
+					<input type="checkbox" name ="soul">Frail
+					<input type="checkbox" checked="checked">All					
+				</td>
+			</tr>	
+			<tr>
+				<td>Ability</td>
+				<td>
+					<input type="checkbox" name ="classes">Advanced Mathematics
+					<input type="checkbox" name ="classes">College Physics
+					<input type="checkbox" name ="classes">C
+					<input type="checkbox" name ="classes">C++
+					<input type="checkbox" name ="classes">Pascal
+					<input type="checkbox" name ="classes">Python
+					<input type="checkbox" name ="classes">HTML5+CSS										
+					<input type="checkbox" checked="checked">All
+				</td>
+			</tr>
+			<tr>
+				<td>Self-introduction</td>
+				<td><textarea>I'm...</textarea></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><button onclick="alert('Get it!')">Submit</button></td>
+			</tr>
+		</table>
+	</body>
+</html>
